@@ -28,7 +28,7 @@ public class truecaller {
 		d1.findElement(By.xpath("//a[contains(.,' Sign in with Microsoft ')]")).click();
 			//d1.findElement(By.xpath("//img[@src='/assets/microsoft-icon.01a18c3b.svg']")).click();//problem
 			//WebElement e = d1.switchTo().activeElement();
-			//e.sendKeys("vatipallivamsikrishna@gmail.com");
+			//e.sendKeys("");
 		//Enter email id
 		d1.manage().window().minimize();
 		System.out.println("Enter userName");
