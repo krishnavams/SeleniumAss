@@ -6,6 +6,7 @@ public class apps {
 
 	public static void path() {
 		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
+		System.setProperty("webdriver.msedge.driver", "./driver/msedgedriver.exe");
 	}
 
 	public String getStr() {

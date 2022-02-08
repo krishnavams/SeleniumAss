@@ -13,7 +13,7 @@ public class bbcLatestnews {
 			apps.path();
 		WebDriver d1 = new ChromeDriver();
 		d1.get("https://www.bbc.com/");
-		for(int i=1;i<=4;i++) {
+		for(int i=1;i<=5;i++) {
 		WebElement abc = d1.findElement(By.xpath("(//h2[text()='Latest Business News']/../ul/li//h3)["+i+"]"));
 		System.out.println(abc.getText());
 	}
