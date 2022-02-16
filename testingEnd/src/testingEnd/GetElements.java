@@ -13,7 +13,7 @@ public class GetElements {
 	static WebElement abc;
 	
 	public static void main(String[] args) {
-		apps.path();
+		MainSystem.path();
 		Scanner s = new Scanner(System.in);
 		WebDriver d1 = new ChromeDriver();
 		d1.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);

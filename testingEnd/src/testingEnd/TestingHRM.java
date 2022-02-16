@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class TestingHRM {
 
 	public static void main(String[] args) {
-		apps.path();
+		MainSystem.path();
 		WebDriver d1 =new ChromeDriver();
 		d1.get("https://www.goole.com/");
 		double num = Math.random();

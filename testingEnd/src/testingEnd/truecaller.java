@@ -13,9 +13,9 @@ public class truecaller {
 	
 
 	public static void main(String[] args) {
-		apps.path();
+		MainSystem.path();
 		Scanner input = new Scanner(System.in);
-		apps abc = new apps();
+		MainSystem abc = new MainSystem();
 		WebDriver d1 = new ChromeDriver();
 		String name=" ";
 		d1.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);

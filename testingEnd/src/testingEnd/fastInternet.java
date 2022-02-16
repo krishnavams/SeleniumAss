@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class fastInternet {
 
 	public static void main(String[] args)  {
-		apps.path();
+		MainSystem.path();
 		WebDriver d1 =new ChromeDriver();
 		d1.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		d1.get("https://fast.com/");
