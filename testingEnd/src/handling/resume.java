@@ -8,12 +8,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-/**
- * 
- * @author VAMSI
- *
- */
-
 public class resume {
 	static WebDriver webDriver;
 	static File file;
@@ -28,6 +22,7 @@ public class resume {
 		webDriver.get(url);
 		login();
 		uploadFile(file);
+		webDriver.close();
 	}
 
 	@SuppressWarnings("deprecation")
