@@ -12,7 +12,8 @@ public class actitimeLoginCheck {
 	static FileInputStream fis;
 	static Workbook book;
 	public static void main(String[] args) throws Exception {
-		MainSystem.path();
+//		MainSystem mainSystem =new MainSystem();
+//		mainSystem.path();
 		fis=new FileInputStream("./support/test.property");
 		Properties pro = new Properties();
 		pro.load(fis);
